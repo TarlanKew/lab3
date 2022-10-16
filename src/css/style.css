@@ -44,14 +44,24 @@
   padding-top: 100px;
 }
 
+.tanjiro__text {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: rgba(37, 37, 37, 0.7);
+  border-radius: 10px;
+}
+
 .tanjiro__heading {
   color: aqua;
-  padding-bottom: 24px;
+  padding: 10px 10px 24px 0px;
 }
 
 .tanjiro__subheading {
   color: aqua;
-  padding-bottom: 48px;
+  font-size: 14px;
+  padding: 0px 10px 48px 0px;
 }
 
 .nezuko {
@@ -82,6 +92,69 @@
 }
 
 .nezuko__subheading {
+  color: aqua;
+  padding: 10px 10px 48px 0px;
+}
+
+.zenitsu {
+  height: 540px;
+  background-image: url(/src/img/ZenitsuAgatsuma.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.zenitsu .wrapper {
+  padding-top: 100px;
+}
+
+.zenitsu__text {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: rgba(37, 37, 37, 0.7);
+  border-radius: 10px;
+}
+
+.zenitsu__heading {
+  color: aqua;
+  padding: 10px 10px 24px 0px;
+}
+
+.zenitsu__subheading {
+  color: aqua;
+  font-size: 14px;
+  padding: 0px 10px 48px 0px;
+}
+
+.inosuke {
+  height: 540px;
+  background-image: url(/src/img/InosukeHashibira.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.inosuke .wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 100px;
+}
+
+.inosuke__text {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: rgba(37, 37, 37, 0.7);
+  border-radius: 10px;
+}
+
+.inosuke__heading {
+  color: aqua;
+  padding: 10px 10px 24px 0px;
+}
+
+.inosuke__subheading {
   color: aqua;
   padding: 10px 10px 48px 0px;
 }
@@ -123,6 +196,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
