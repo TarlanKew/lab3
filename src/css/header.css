@@ -1,0 +1,12 @@
+.header .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .nav__list {
+  display: flex;
+}
+
+.header .nav__item {
+  margin-right: 24px;
+}

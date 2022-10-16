@@ -16,3 +16,17 @@
 body {
   font-family: 'Mulish', sans-serif;
 }
+
+.wrapper {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+a, a:active {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
