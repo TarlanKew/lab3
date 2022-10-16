@@ -42,13 +42,15 @@ ul {
 .btn {
   width: 300px;
   height: 60px;
-  background: rgb(0, 180, 180);;
+  background: #00b4b4;;
   border: none;
   border-radius: 5px;
   color: rgb(0, 0, 0);
   cursor: pointer;
-  margin-top: 550px;
   font-size: 24px;
+}
+.header__btn {
+  margin-top: 550px;
 }
 
 .btn:hover {

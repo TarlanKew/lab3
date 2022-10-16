@@ -1,0 +1,17 @@
+.tanjiro {
+  height: calc(1080px / 2);
+  background-image: url(/src/img/TanjiroKamado_.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tanjiro .wrapper {
+  padding-top: 100px;
+}
+.tanjiro__heading {
+  color: aqua;
+  padding-bottom: 24px;
+}
+.tanjiro__subheading {
+  color: aqua;
+  padding-bottom: 48px;
+}
