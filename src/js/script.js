@@ -22,9 +22,11 @@ for (let btn of btns) {
       document.location = inosukeLink
     }else if(btn.dataset.name === "print") {
       btn.dataset.name = "Noprint"
+      btn.textContent = "Версия для просмотра"
       link.href = './src/css/print.css'
     }else if(btn.dataset.name === "Noprint") {
       btn.dataset.name = "print"
+      btn.textContent = "Версия для печати"
       link.href = './src/css/style.css'
     }
   });
