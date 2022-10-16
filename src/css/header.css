@@ -1,6 +1,14 @@
-.header .wrapper {
-  display: flex;
-  justify-content: space-between;
+.header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/src/img/BannerBG.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 24px;
+}
+
+.logo {
+  font-size: 24px;
 }
 
 .header .nav__list {
@@ -9,4 +17,17 @@
 
 .header .nav__item {
   margin-right: 24px;
+}
+
+.header__heading {
+  display: inline-block;
+  max-width: 615px;
+  padding-top: 150px;
+  font-size: 40px;
+  color: aqua;
+}
+
+.header__box--bottom {
+  display: flex;
+  justify-content: space-between;
 }

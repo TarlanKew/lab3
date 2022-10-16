@@ -21,12 +21,36 @@ body {
   max-width: 1240px;
   margin: 0 auto;
 }
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 a, a:active {
   text-decoration: none;
-  color: black;
+  color: aqua;
+}
+a:hover {
+  color: rgb(0, 180, 180);
 }
 
 ul {
   list-style-type: none;
+}
+
+.btn {
+  width: 300px;
+  height: 60px;
+  background: rgb(0, 180, 180);;
+  border: none;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  margin-top: 550px;
+  font-size: 24px;
+}
+
+.btn:hover {
+  background: rgb(0, 120, 120);
 }
