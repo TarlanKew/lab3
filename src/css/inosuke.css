@@ -1,6 +1,6 @@
 .inosuke {
   height: 540px;
-  background-image: url(/src/img/InosukeHashibira.svg);
+  background-image: url(./src/img/InosukeHashibira.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }

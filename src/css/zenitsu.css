@@ -1,6 +1,6 @@
 .zenitsu {
   height: 540px;
-  background-image: url(/src/img/ZenitsuAgatsuma.svg);
+  background-image: url(./src/img/ZenitsuAgatsuma.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }

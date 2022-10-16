@@ -3,7 +3,7 @@
   width: 100%;
   z-index: 999;
   height: 40vh;
-  background-image: url(/src/img/footerBG.svg);
+  background-image: url(./src/img/footerBG.svg);
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;

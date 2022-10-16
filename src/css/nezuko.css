@@ -1,6 +1,6 @@
 .nezuko {
   height: 540px;
-  background-image: url(/src/img/NezukoKamado.svg);
+  background-image: url(./src/img/NezukoKamado.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
