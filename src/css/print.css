@@ -2,6 +2,9 @@
 .header {
   width: 100%;
   height: 100vh;
+  background-image: url(../img/BannerBG.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 24px;
 }
 
@@ -10,7 +13,12 @@
 }
 
 .header .nav__list {
-  display: none;
+  display: flex;
+}
+
+.header__box {
+  display: flex;
+  justify-content: space-between;
 }
 
 .header .nav__item {
@@ -18,24 +26,35 @@
 }
 
 .header__heading {
-  display: inline-block;
   max-width: 615px;
   padding-top: 150px;
   font-size: 40px;
   color: aqua;
 }
 
-.header__box--bottom {
-  display: flex;
-  justify-content: space-between;
+.header__box {
+  animation: fade 2s linear;
 }
 
-.header__btn {
-  display: none;
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: translate(0px, -50px);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translate(0px, 10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
 }
-
 .tanjiro {
   height: 540px;
+  background-image: url(../img/TanjiroKamado_.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .tanjiro .wrapper {
@@ -62,12 +81,11 @@
   padding: 0px 10px 48px 0px;
 }
 
-.tanjiro__btn {
-  display: none;
-}
-
 .nezuko {
   height: 540px;
+  background-image: url(../img/NezukoKamado.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .nezuko .wrapper {
@@ -95,12 +113,11 @@
   padding: 10px 10px 48px 0px;
 }
 
-.nezuko__btn {
-  display: none;
-}
-
 .zenitsu {
   height: 540px;
+  background-image: url(../img/ZenitsuAgatsuma.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .zenitsu .wrapper {
@@ -127,12 +144,11 @@
   padding: 0px 10px 48px 0px;
 }
 
-.zenitsu__btn {
-  display: none;
-}
-
 .inosuke {
   height: 540px;
+  background-image: url(../img/InosukeHashibira.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .inosuke .wrapper {
@@ -160,15 +176,14 @@
   padding: 10px 10px 48px 0px;
 }
 
-.inosuke__btn {
-  display: none;
-}
-
 .footer {
   position: relative;
   width: 100%;
   z-index: 999;
   height: 40vh;
+  background-image: url(../img/footerBG.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
   overflow: hidden;
 }
 

@@ -16,23 +16,40 @@
   display: flex;
 }
 
+.header__box {
+  display: flex;
+  justify-content: space-between;
+}
+
 .header .nav__item {
   margin-right: 24px;
 }
 
 .header__heading {
-  display: inline-block;
   max-width: 615px;
   padding-top: 150px;
   font-size: 40px;
   color: aqua;
 }
 
-.header__box--bottom {
-  display: flex;
-  justify-content: space-between;
+.header__box {
+  animation: fade 2s linear;
 }
 
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: translate(0px, -50px);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translate(0px, 10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+}
 .tanjiro {
   height: 540px;
   background-image: url(../img/TanjiroKamado_.svg);
@@ -242,7 +259,8 @@ ul {
 }
 
 .header__btn {
-  margin-top: 550px;
+  margin-top: 300px;
+  margin-left: 887px;
 }
 
 .btn:hover {

@@ -5,8 +5,7 @@ let mainLink    = 'https://jut.su/kimetsu-yaiba/season-1/',
     tanjiroLink = 'https://kimetsu-no-yaiba.fandom.com/wiki/Tanjiro_Kamado',
     nezukoLink  = 'https://kimetsu-no-yaiba.fandom.com/wiki/Nezuko_Kamado',
     zenitsuLink = 'https://kimetsu-no-yaiba.fandom.com/wiki/Zenitsu_Agatsuma',
-    inosukeLink = 'https://kimetsu-no-yaiba.fandom.com/wiki/Inosuke_Hashibira',
-    link        = document.querySelector('link')
+    inosukeLink = 'https://kimetsu-no-yaiba.fandom.com/wiki/Inosuke_Hashibira'
 
 for (let btn of btns) {
   btn.addEventListener('click', (e) => {
@@ -20,14 +19,6 @@ for (let btn of btns) {
       document.location = zenitsuLink
     }else if(btn.dataset.name === "inosuke") {
       document.location = inosukeLink
-    }else if(btn.dataset.name === "print") {
-      btn.dataset.name = "Noprint"
-      btn.textContent = "Версия для просмотра"
-      link.href = '../src/css/print.css'
-    }else if(btn.dataset.name === "Noprint") {
-      btn.dataset.name = "print"
-      btn.textContent = "Версия для печати"
-      link.href = '../src/css/style.css'
     }
   });
 }

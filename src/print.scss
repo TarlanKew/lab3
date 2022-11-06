@@ -1,9 +1,9 @@
-@use 'blocks__print/header__print';
-@use 'blocks__print/tanjiro__print';
-@use 'blocks__print/nezuko__print';
-@use 'blocks__print/zenitsu__print';
-@use 'blocks__print/inosuke__print';
-@use 'blocks__print/footer__print';
+@use 'blocks/header';
+@use 'blocks/tanjiro';
+@use 'blocks/nezuko';
+@use 'blocks/zenitsu';
+@use 'blocks/inosuke';
+@use 'blocks/footer';
 
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700&display=swap');
 
